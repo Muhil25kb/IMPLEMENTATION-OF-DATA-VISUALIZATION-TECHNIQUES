@@ -1,3 +1,6 @@
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("lubridate")
 
 library(ggplot2)
 library(dplyr)
@@ -9,25 +12,19 @@ ecommerce_data <- na.omit(ecommerce_data)
 cat("Name: K.B. MUHIL\n")
 cat("Roll No: 23BAD070\n")
 
-# --------------------------
-# Histogram
-# --------------------------
+
 ggplot(ecommerce_data, aes(x = Transaction_Amount)) +
   geom_histogram(fill = "skyblue", color = "black", bins = 20) +
   ggtitle("Histogram of Transaction Amounts\nK.B. MUHIL | 23BAD070") +
   theme_minimal()
 
-# --------------------------
-# Boxplot
-# --------------------------
+
 ggplot(ecommerce_data, aes(y = Transaction_Amount)) +
   geom_boxplot(fill = "orange") +
   ggtitle("Outlier Detection using Boxplot\nK.B. MUHIL | 23BAD070") +
   theme_minimal()
 
-# --------------------------
-# Heatmap of Monthly Sales
-# --------------------------
+
 ecommerce_data$Month <- floor_date(as.Date(ecommerce_data$Transaction_Date), "month")
 
 monthly_sales <- ecommerce_data %>%
@@ -41,3 +38,4 @@ ggplot(monthly_sales, aes(x = Month, y = "Sales", fill = Total_Sales)) +
   xlab("Month") +
   ylab("") +
   theme_minimal()
+
