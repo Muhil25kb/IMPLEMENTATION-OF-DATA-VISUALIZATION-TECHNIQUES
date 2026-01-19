@@ -6,13 +6,13 @@ The analysis helps startups and businesses make data-driven decisions by convert
 
 2. Objectives: 
 
-1.Analyze customer transaction amounts
+  1.Analyze customer transaction amounts
 
-2.Detect abnormal or outlier purchase behavior
+  2.Detect abnormal or outlier purchase behavior
 
-3.Understand monthly sales intensity
+  3.Understand monthly sales intensity
 
-4.Apply data visualization techniques using R
+  4.Apply data visualization techniques using R
 
 3. Dataset Description
 
@@ -41,23 +41,23 @@ Platform: RStudio
 
 5. Visualizations Implemented:
 
-1.Histogram
+      1.Histogram
 
-2.Shows distribution of transaction amounts
+      2.Shows distribution of transaction amounts
 
-3.Helps understand customer spending patterns
+      3.Helps understand customer spending patterns
 
-4.Boxplot
+      4.Boxplot
 
-5.Detects outliers and abnormal purchase values
+      5.Detects outliers and abnormal purchase values
 
-6.Useful for fraud and anomaly detection
+      6.Useful for fraud and anomaly detection
 
-7.Heatmap
+      7.Heatmap
 
-8.Displays monthly sales intensity
+      8.Displays monthly sales intensity
 
-9.Highlights high and low sales periods
+      9.Highlights high and low sales periods
 
 6.Experiment Scenario:
 
