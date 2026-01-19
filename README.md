@@ -7,24 +7,34 @@ The analysis helps startups and businesses make data-driven decisions by convert
 2. Objectives: 
 
 1.Analyze customer transaction amounts
+
 2.Detect abnormal or outlier purchase behavior
+
 3.Understand monthly sales intensity
+
 4.Apply data visualization techniques using R
 
 3. Dataset Description
 
 The dataset contains e-commerce transaction records with attributes such as:
+
 Transaction Date
+
 Transaction Amount
+
 Customer purchase details
+
 (Dataset is used only for academic and learning purposes)
 
 4.Tools & Technologies
 Language: R
 
 Libraries Used:
+
 ggplot2 – Data visualization
+
 dplyr – Data manipulation
+
 lubridate – Date handling
 
 Platform: RStudio
@@ -32,13 +42,21 @@ Platform: RStudio
 5. Visualizations Implemented:
 
 1.Histogram
+
 2.Shows distribution of transaction amounts
+
 3.Helps understand customer spending patterns
+
 4.Boxplot
+
 5.Detects outliers and abnormal purchase values
+
 6.Useful for fraud and anomaly detection
+
 7.Heatmap
+
 8.Displays monthly sales intensity
+
 9.Highlights high and low sales periods
 
 6.Experiment Scenario:
